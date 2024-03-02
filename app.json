@@ -1,13 +1,14 @@
 {
   "expo": {
     "name": "Tic-Tac-Toe",
-    "slug": "Tic-Tac-Toe",
+    "slug": "tic-tac-toe",
+    "description": "This is the tic tac to",
     "version": "1.0.0",
     "orientation": "portrait",
-    "icon": "./assets/icon.png",
+    "icon": "./assets/tic-tac-toe.png",
     "userInterfaceStyle": "light",
     "splash": {
-      "image": "./assets/splash.png",
+      "image": "./assets/tic-tac-toe-image.png",
       "resizeMode": "contain",
       "backgroundColor": "#ffffff"
     },
@@ -25,6 +26,15 @@
     },
     "web": {
       "favicon": "./assets/favicon.png"
-    }
+    },
+    "extra": {
+      "eas": {
+        "projectId": "242ed906-3913-4711-bb54-e749c04a0ad2"
+      }
+    },
+    "owner": "nikhil_tony",
+    "plugins": [
+      "expo-router"
+    ]
   }
 }
